@@ -1,0 +1,14 @@
+[debug] > Exec(all {file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/}root/products {file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Program Files (x86)\SBT\bin\json-parsing\target\scala-2.13\classes ...
+[error] C:\Program Files (x86)\SBT\bin\json-parsing\src\main\scala\example\Hello.scala:61:30: diverging implicit expansion for type io.circe.Encoder[Any]
+[error] starting with lazy value currencyEncoder in object Encoder
+[error]   val intsJson = parseResult.asJson
+[error]                              ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 4 s, completed 14 июл. 2021 г., 19:06:47
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

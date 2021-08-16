@@ -1,0 +1,13 @@
+[debug] > Exec(all {file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/}root/products {file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Program Files (x86)\SBT\bin\json-parsing\target\scala-2.13\classes ...
+[error] C:\Program Files (x86)\SBT\bin\json-parsing\src\main\scala\example\Hello.scala:54:30: could not find implicit value for parameter encoder: io.circe.Encoder[Any]
+[error]   val intsJson = parseResult.asJson
+[error]                              ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 5 июл. 2021 г., 11:52:52
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

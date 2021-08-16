@@ -1,0 +1,121 @@
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.4 (Oracle Corporation Java 16.0.1)
+[debug]       Load.loadUnit: plugins took 25.9518ms
+[debug]       Load.loadUnit: defsScala took 0.0056ms
+[debug] [Loading] Scanning directory C:\Users\Professional\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Professional\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 10.4 ms
+[debug]           Load.resolveProject(global-plugins) took 1.0733ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Professional\.sbt\1.0\plugins, plugins: List(<none>))) took 11.9283ms
+[debug] [Loading] Done in C:\Users\Professional\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 13.2324ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.0297ms
+[debug]     Load.loadUnit(file:/C:/Users/Professional/.sbt/1.0/plugins/, ...) took 39.9449ms
+[debug]   Load.apply: load took 41.2454ms
+[debug]   Load.apply: resolveProjects took 0.1117ms
+[debug]   Load.apply: finalTransforms took 16.2562ms
+[debug]   Load.apply: config.delegates took 0.5778ms
+[debug]   Load.apply: Def.make(settings)... took 193.8773ms
+[debug]   Load.apply: structureIndex took 125.291ms
+[debug]   Load.apply: mkStreams took 0.003ms
+[info] loading global plugins from C:\Users\Professional\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Forcing garbage collection...
+[debug] Load.defaultLoad until apply took 2465.3305ms
+[debug]           Load.loadUnit: plugins took 22.1819ms
+[debug]           Load.loadUnit: defsScala took 0.009ms
+[debug] [Loading] Scanning directory C:\Program Files (x86)\SBT\bin\json-parsing\project
+[debug]             Load.loadUnit: mkEval took 0.4336ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Program Files (x86)\SBT\bin\json-parsing\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6166 ms
+[info] loading settings for project json-parsing-build from idea.sbt ...
+[debug]               Load.resolveProject(json-parsing-build) took 1.4835ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id json-parsing-build, base: C:\Program Files (x86)\SBT\bin\json-parsing\project, plugins: List(<none>))) took 3.6895ms
+[debug] [Loading] Done in C:\Program Files (x86)\SBT\bin\json-parsing\project, returning: (json-parsing-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 27.1679ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.907ms
+[debug]         Load.loadUnit(file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/project/, ...) took 53.3933ms
+[debug]       Load.apply: load took 55.1347ms
+[debug]       Load.apply: resolveProjects took 0.172ms
+[debug]       Load.apply: finalTransforms took 11.6051ms
+[debug]       Load.apply: config.delegates took 3.4041ms
+[debug]       Load.apply: Def.make(settings)... took 104.661ms
+[debug]       Load.apply: structureIndex took 33.9963ms
+[debug]       Load.apply: mkStreams took 0.0027ms
+[info] loading project definition from C:\Program Files (x86)\SBT\bin\json-parsing\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 600.4501ms
+[debug]     Load.loadUnit: defsScala took 0.0056ms
+[debug] [Loading] Scanning directory C:\Program Files (x86)\SBT\bin\json-parsing
+[debug]       Load.loadUnit: mkEval took 0.7297ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.0149 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 54.9877ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Program Files (x86)\SBT\bin\json-parsing, plugins: List(<none>))) took 57.6719ms
+[debug] [Loading] Done in C:\Program Files (x86)\SBT\bin\json-parsing, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1032.9604ms
+[debug]     Load.loadUnit: cleanEvalClasses took 22.6875ms
+[debug]   Load.loadUnit(file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/, ...) took 1656.8607ms
+[debug] Load.apply: load took 1658.5043ms
+[debug] Load.apply: resolveProjects took 0.1363ms
+[debug] Load.apply: finalTransforms took 25.6083ms
+[debug] Load.apply: config.delegates took 0.325ms
+[debug] Load.apply: Def.make(settings)... took 89.8685ms
+[debug] Load.apply: structureIndex took 25.5879ms
+[debug] Load.apply: mkStreams took 0.0024ms
+[warn] Discarding 1 session setting.  Use 'session save' to persist session settings.
+[info] set current project to json parsing (in build file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(idea-shell, None, None)

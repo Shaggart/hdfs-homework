@@ -1,0 +1,7 @@
+[debug] > Exec(all {file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/}root/products {file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 3 июл. 2021 г., 20:57:30
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

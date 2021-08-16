@@ -1,0 +1,13 @@
+[debug] > Exec(ll {file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/}root/products {file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/}root/test:products, None, None)
+[error] Expected ID character
+[error] Not a valid command: ll
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: ll
+[error] ll {file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/}root/products {file:/C:/Program%20Files%20(x86)/SBT/bin/json-parsing/}root/test:products
+[error]   ^
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
